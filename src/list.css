@@ -1,0 +1,35 @@
+.listOut {
+  float: left;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.del {
+  margin: 0;
+  color: red;
+  cursor: pointer;
+}
+
+.listTr {
+  font-size: 30px;
+  border-bottom: 1px solid #35477d !important;
+}
+
+.txtUpdate {
+  width: 98%;
+  height: 30px;
+  font-size: 30px;
+}
+
+.chkbx {
+  width: 35px;
+  height: 25px;
+}
+.smallTd {
+  width: 10%;
+}
+.bigTd {
+  width: 80%;
+}

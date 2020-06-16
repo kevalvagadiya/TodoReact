@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+.titleTodo {
+  color: rgba(175, 47, 47, 0.15);
+  font-size: 50px;
+}
+.container {
+  margin: auto;
+  width: 30%;
+  border: 5px solid rgba(175, 47, 47, 0.15);
+  border-radius: 10px;
+  border-top-style: double;
+  border-bottom-style: double;
+  padding: 0px;
+  justify-content: center;
+}
+.todo {
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+.elementTodo {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+.textbx {
+  width: 90%;
+  height: 30px;
+  font-size: 20px;
+  border-radius: 10px;
+  outline: none;
+}
+.forText {
+  width: 90%;
+}
+.forCheck {
+  width: 10%;
+}
+.mainChk {
+  /* margin-top: 5px; */
+  width: 100%;
+  height: 50%;
+}
+.list {
+  width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  border-top: 3px double #35477d !important;
+  border-bottom: 3px double #35477d !important;
+}
+.footer {
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 1px,
+    rgb(246, 246, 246) 0px 8px 0px -3px, rgba(0, 0, 0, 0.2) 0px 9px 1px -3px,
+    rgb(246, 246, 246) 0px 16px 0px -6px, rgba(0, 0, 0, 0.2) 0px 17px 2px -6px;
+}

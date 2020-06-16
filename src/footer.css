@@ -1,0 +1,25 @@
+.length {
+  float: left;
+  color: gray;
+  margin-top: 10px;
+}
+.btnClear {
+  float: right;
+  margin-top: 10px;
+}
+button {
+  background-color: transparent;
+  border: unset;
+  font-size: 15px;
+  color: gray;
+}
+.btnDisplay {
+  padding: 4px;
+  margin: 5px;
+}
+.btnDisplay:hover {
+  border: 1px solid gray;
+  padding: 4px;
+  margin:4px;
+  border-radius: 5px;
+}
